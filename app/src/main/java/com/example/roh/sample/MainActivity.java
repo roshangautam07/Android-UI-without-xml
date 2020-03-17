@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         try {
 
-                            int i = DB.save(fname, middle, last, username, pass);
+                            int i = DB.save(fname, middle, last, username, pass);  //db operation not working
                             if (i > 0) {
                                 Toast.makeText(getApplicationContext(),"Successfully saved", Toast.LENGTH_LONG).show();
 
